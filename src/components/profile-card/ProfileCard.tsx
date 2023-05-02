@@ -25,7 +25,6 @@ export default function ProfileCard({
   age,
   backgroundAlt,
   backgroundSrc,
-  className,
   followers,
   likes,
   location,
@@ -35,7 +34,7 @@ export default function ProfileCard({
   photos,
 }: ProfileCardProps) {
   return (
-    <section className={merge(className, Styles.root)}>
+    <section className={merge(Styles.root)}>
       <Background
         alt={backgroundAlt}
         className={merge(Styles.background)}
