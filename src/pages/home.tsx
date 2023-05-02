@@ -1,6 +1,6 @@
 import ProfileCard from "@/components/profile-card/ProfileCard";
-import BackgroundSrc from "@/public/images/bg-pattern-card.svg";
-import PhotoSrc from "@/public/images/image-victor.jpg";
+import BackgroundSrc from "@/images/bg-pattern-card.svg";
+import PhotoSrc from "@/images/image-victor.jpg";
 import Styles from "@/styles/pages/home.module.scss";
 
 export default function HomePage() {

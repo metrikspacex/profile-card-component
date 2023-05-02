@@ -37,15 +37,15 @@
   // Excluded
   "files.exclude": {
     "**/.git": true,
-    ".design": false,
+    ".design": true,
     ".env": true,
     ".eslintignore": true,
-    ".eslintrc": false,
+    ".eslintrc": true,
     ".github": true,
     ".gitignore": true,
     ".next": true,
     ".prettierignore": true,
-    ".prettierrc": false,
+    ".prettierrc": true,
     ".screenshots": true,
     ".stylelintrc.json": true,
     "guide.md": true,
@@ -58,11 +58,12 @@
     "package.json": true,
     "postcss.config.js": true,
     "prisma": true,
+    "tailwind.config.js": true,
     "readme.md": true,
     "src/vite-env.d.ts": true,
-    "tsconfig.json": false,
+    "tsconfig.json": true,
     "tsconfig.node.json": true,
-    "vite.config.ts": false
+    "vite.config.ts": true
   },
 
   // Explorer
