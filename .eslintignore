@@ -1,0 +1,9 @@
+.next
+dist
+dist-ssr
+next.config.js
+node_modules
+out
+postcss.config.js
+public/scripts/resize.js
+tailwind.config.js
