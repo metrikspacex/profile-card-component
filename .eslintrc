@@ -202,7 +202,7 @@
       "version": "detect"
     },
     "tailwindcss": {
-      "callees": ["classnames", "clsx", "ctl"],
+      "callees": ["classnames", "clsx", "ctl", "merge"],
       "classRegex": "^class(Name)?$",
       "config": "tailwind.config.js",
       "cssFiles": [

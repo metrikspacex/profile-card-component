@@ -1,5 +1,7 @@
-import clsx from "clsx";
 import type { HTMLAttributes } from "react";
+
+import Styles from "@/styles/components/profile-card/Info.module.scss";
+import merge from "@/utilities/merge";
 
 export type InfoProps = {
   age: number;
@@ -7,14 +9,14 @@ export type InfoProps = {
   name: string;
 } & HTMLAttributes<HTMLDivElement>;
 
-export default function Info({ age, location, name }: InfoProps) {
+export default function Info({ age, className, location, name }: InfoProps) {
   return (
-    <div className={clsx("")}>
-      <h1 className={clsx("")}>
-        <span className={clsx("")}>{name}</span>
-        <span className={clsx("")}>{age}</span>
+    <div className={merge(className, Styles.root)}>
+      <h1 className={merge(Styles.container)}>
+        <span className={merge(Styles.name)}>{name}</span>
+        <span className={merge(Styles.age)}>{age}</span>
       </h1>
-      <h2 className={clsx("")}>{location}</h2>
+      <h2 className={merge(Styles.location)}>{location}</h2>
     </div>
   );
 }

@@ -1,11 +1,12 @@
 {
   // Editor
   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "editor.colorDecorators": true,
-  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+  "editor.colorDecorators": false,
+  "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 22,
   "editor.formatOnPaste": false,
@@ -39,12 +40,12 @@
     ".design": false,
     ".env": true,
     ".eslintignore": true,
-    ".eslintrc": true,
+    ".eslintrc": false,
     ".github": true,
     ".gitignore": true,
     ".next": true,
     ".prettierignore": true,
-    ".prettierrc": true,
+    ".prettierrc": false,
     ".screenshots": true,
     ".stylelintrc.json": true,
     "guide.md": true,
@@ -59,9 +60,9 @@
     "prisma": true,
     "readme.md": true,
     "src/vite-env.d.ts": true,
-    "tsconfig.json": true,
+    "tsconfig.json": false,
     "tsconfig.node.json": true,
-    "vite.config.ts": true
+    "vite.config.ts": false
   },
 
   // Explorer
@@ -116,14 +117,14 @@
     "editor.wordWrapColumn": 80
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80
   },
 
   // Formatter SCSS
   "[scss]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+    "editor.defaultFormatter": "vscode.css-language-features",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 80
   },
@@ -237,10 +238,10 @@
   "scss.completion.completePropertyWithSemicolon": true,
   "scss.completion.triggerPropertyValueCompletion": true,
   "scss.format.braceStyle": "collapse",
-  "scss.format.maxPreserveNewLines": -1,
-  "scss.format.newlineBetweenRules": true,
+  "scss.format.maxPreserveNewLines": 2,
+  "scss.format.newlineBetweenRules": false,
   "scss.format.newlineBetweenSelectors": false,
-  "scss.format.preserveNewLines": false,
+  "scss.format.preserveNewLines": true,
   "scss.format.spaceAroundSelectorSeparator": true,
   "scss.hover.documentation": true,
   "scss.hover.references": true,
@@ -266,9 +267,6 @@
   "scss.validate": true,
 
   // Scss Linting
-  "stylelint.enable": true,
-  "stylelint.validate": ["css", "scss"],
-  "stylelint.configFile": ".stylelintrc.json",
   "stylelint.config": {
     "overrides": [
       {
@@ -302,6 +300,10 @@
       }
     ]
   },
+  "stylelint.configFile": ".stylelintrc.json",
+  "stylelint.customSyntax": "postcss-scss",
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
 
   // Typescript
   "typescript.autoClosingTags": true,
@@ -339,7 +341,7 @@
 
   // Transpiling
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.enablePromptUseWorkspaceTsdk": false,
 
   // Window
   "window.zoomLevel": 1,

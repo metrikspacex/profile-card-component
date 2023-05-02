@@ -1,0 +1,10 @@
+picture.root {
+  grid-column: 1;
+  grid-row: 1;
+
+  & > img.background {
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    height: 100%;
+  }
+}

@@ -66,6 +66,7 @@
     & > div#root {
       margin: 0 auto;
       max-width: 1440px; // desktop
+      overflow: scroll;
       padding: 0;
       text-align: center;
     }

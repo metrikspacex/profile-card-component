@@ -1,0 +1,35 @@
+section.root {
+  background-color: white;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 14rem 14.5rem 8.9rem;
+  height: 37.4rem;
+  max-height: 37.4rem;
+  max-width: 32.6rem;
+  position: relative;
+  width: 32.6rem;
+
+  @media (width >=1440px) {
+    height: 37.4rem;
+    max-height: 37.4rem;
+    max-width: 35rem;
+    width: 35rem;
+  }
+
+  & > picture.background {
+    /* Empty */
+  }
+
+  & > picture.photo {
+    /* Empty */
+  }
+
+  & > div.info {
+    /* Empty */
+  }
+
+  & > div.summary {
+    /* Empty */
+  }
+}

@@ -1,0 +1,35 @@
+div.root {
+  align-items: center;
+  border-top: 1px solid #E8E9EC;
+  display: flex;
+  grid-column: 1;
+  grid-row: 3;
+  justify-content: space-around;
+
+  & > div.container {
+    height: 4rem;
+    width: 5.9rem;
+
+    & > h1.heading {
+      color: #2E3349;
+      font-family: var(--ff);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 22px;
+      text-align: center;
+    }
+
+    & > h2.subheading {
+      margin-top: 3px;
+      color: #6B7082;
+      font-family: var(--ff);
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      line-height: 12px;
+      text-align: center;
+    }
+  }
+}

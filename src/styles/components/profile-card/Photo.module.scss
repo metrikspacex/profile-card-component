@@ -1,0 +1,12 @@
+picture.root {
+  height: 9.6rem;
+  left: calc(50% - (9.6rem / 2));
+  position: absolute;
+  top: calc(14rem - (9.6rem / 2));
+  width: 9.6rem;
+
+  & > img.photo {
+    border: 0.5rem solid white;
+    border-radius: 9.6rem;
+  }
+}
