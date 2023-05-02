@@ -4,7 +4,8 @@ div.root {
   display: flex;
   grid-column: 1;
   grid-row: 3;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 4rem;
 
   & > div.container {
     height: 4rem;
