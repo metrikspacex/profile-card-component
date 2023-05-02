@@ -5,6 +5,6 @@ import HomePage from "./pages/home";
 export default createBrowserRouter([
   {
     element: <HomePage />,
-    path: "/",
+    path: "/profile-card-component/",
   },
 ]);

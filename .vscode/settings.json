@@ -49,13 +49,13 @@
     ".screenshots": true,
     ".stylelintrc.json": true,
     "guide.md": true,
-    "index.html": true,
+    "index.html": false,
     "next-env.d.ts": true,
     "next.config.js": true,
     "node_modules": true,
     "out": true,
     "package-lock.json": true,
-    "package.json": true,
+    "package.json": false,
     "postcss.config.js": true,
     "prisma": true,
     "tailwind.config.js": true,
@@ -63,7 +63,7 @@
     "src/vite-env.d.ts": true,
     "tsconfig.json": true,
     "tsconfig.node.json": true,
-    "vite.config.ts": true
+    "vite.config.ts": false
   },
 
   // Explorer
