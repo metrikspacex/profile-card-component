@@ -7,14 +7,15 @@ realistic projects.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [learned](#learned)
-- [Author](#author)
+- [Frontend Mentor - Profile card component solution](#frontend-mentor---profile-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+    - [Built with](#built-with)
+    - [Learned](#learned)
+  - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections
 you keep.**
@@ -27,9 +28,9 @@ you keep.**
 
 ### Screenshot
 
-![Mobile](./screenshots/mobile.jpg)
+![Mobile](./.screenshots/mobile.png)
 
-![Desktop](./screenshots/desktop.jpg)
+![Desktop](./.screenshots/desktop.png)
 
 ### Links
 
