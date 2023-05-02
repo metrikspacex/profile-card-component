@@ -6,12 +6,14 @@ div.root {
   & > h1.container {
     display: flex;
     height: 2.3rem;
-    inset: 72px 95px 50px 96px;
+    inset: 72px 29.5% 50px;
     justify-content: space-between;
     position: absolute;
     width: 13.5rem;
 
     @media (width >=1440px) {
+      // Not going to be squished
+      // Fixed
       inset: 72px 107px 50px 108px;
     }
 
@@ -43,7 +45,7 @@ div.root {
     font-style: normal;
     font-weight: 400;
     height: 14px;
-    inset: 103px 138px 28px;
+    inset: 103px 43% 28px;
     line-height: 17px;
     position: absolute;
     text-align: center;
